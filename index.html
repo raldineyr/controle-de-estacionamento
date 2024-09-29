@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <div>
+        <input type="text" id="placa" placeholder="Placa do veículo" autocomplete="off">
+        <input type="text" id="proprietario" placeholder="Nome do Proprietário" autocomplete="off">
+        <input type="text" id="apartamento" placeholder="Número do apartamento" autocomplete="off">
+        <input type="text" id="bloco" placeholder="Bloco do Apartamento" autocomplete="off">
+        <input type="text" id="modelo" placeholder="Modelo do veículo" autocomplete="off">
+        <input type="text" id="cor" placeholder="Cor do veículo" autocomplete="off">
+        <input type="text" id="numero-vaga" placeholder="Número da vaga de estacionamento" autocomplete="off">
+        <button id="send" class="success">Registrar</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Proprietário</th>
+                <th>Veículo</th>
+                <th>Placa</th>
+                <th>Horário</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="garage"></tbody>
+    </table>
+</body>
+
+<script src="main.js"></script>
+</html>
